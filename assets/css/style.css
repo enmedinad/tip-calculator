@@ -1,0 +1,123 @@
+:root{
+    --primary: #26c0ab;
+    --veryd-cyan: hsl(183, 100%, 15%);
+    --dark-gray: hsl(186, 14%, 43%);
+    --grayis-cyan: hsl(184, 14%, 56%);
+    --light-gray: hsl(185, 41%, 84%);
+    --veryl-gray: hsl(189, 41%, 97%);
+    --white: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.hidden{
+    visibility: hidden;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light-gray);
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+}
+input{
+    font-size: 24px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tip-box{
+    min-width: 50%;
+    width: fit-content;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 20px 30px 0px #2589943f;;
+}
+
+.first-column-tip-box{
+    width: 100%;
+}
+
+
+
+
+
+.second-column-tip-box{
+    background-color: var(--veryd-cyan);
+    border-radius: 12px;
+    width: 80%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tip-money{
+    color: var(--primary);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tip-money p{
+    position: relative;
+}
+.tip-money p svg{
+    transform: scale(1.7);
+    position: absolute;
+    top: 22px;
+    left: -20px;
+}
+.tip-amount{
+    padding-top: 10px;
+}
+.second-row{
+    margin-bottom: 80px;
+}
+.first-row{
+    margin-top: 20px;
+}
+.span-tip{
+    color: var(--dark-gray);
+    font-weight: 700;
+}
+
+.reset-button{
+    width: 100%;
+    background-color: #26c0ab;
+    color: var(--veryd-cyan);
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: .15;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.reset-button:hover{
+    background-color: #9de1e7;
+    opacity: 1;
+}
