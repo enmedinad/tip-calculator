@@ -287,3 +287,71 @@ input{
 input:focus{
     outline: 2px solid var(--veryd-cyan)!important;
 }
+
+
+@media only screen and (max-width:375px) {
+    .logo{
+        top: 50px;
+        transform: scale(1);
+    }
+    .tip-box{
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        top: 130px;
+        padding: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-bottom: 30px;
+    }
+    .first-column-tip-box{
+        width: 100%;
+        margin: 0;
+        padding: 0 15 0 20px;
+    }
+    .second-column-tip-box{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .button-tip{
+        width: 45%;
+        
+    }
+    .container-options{
+        width: 100%;
+        padding: 0;
+    }
+    #five{
+        margin-right: 15px;
+    }
+    #fifteen{
+        margin-right: 15px;
+    }
+    #custom{
+        width: 45%;
+        margin-top: 13px;
+    }
+    .reset-button{
+        margin: 0;
+        background-color: #26c0ab;
+    }
+    .first-row{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .second-row{
+        margin-bottom: 20px;
+    }
+    .tip-money{
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .tip-money p svg{
+        top: 13px;
+        transform: scale(1.4);
+    }
+}

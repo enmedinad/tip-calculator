@@ -30,6 +30,7 @@ function x_person(){
     }
     document.getElementById('bandera2').value = value2;
 }
+
 function option1(){
     var check = document.getElementById('bill').getAttribute('class');
     var check2 = document.getElementById('x-people').getAttribute('class');
